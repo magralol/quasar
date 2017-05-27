@@ -1,0 +1,21 @@
+{
+  "name": "quasar",
+  "version": "0.0.1",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron . & webpack --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "css-loader": "^0.28.3",
+    "electron": "^1.6.10",
+    "vue": "^2.3.3",
+    "vue-loader": "^12.2.0",
+    "vue-template-compiler": "^2.3.3",
+    "vuex": "^2.3.1",
+    "webpack": "^2.6.1"
+  }
+}
